@@ -30,7 +30,7 @@ import {
   updateConfiguration,
 } from "../payments.repository";
 import PaymentsAppsClient from "../payments-apps.graphql";
-import Welcome from "../components/welcome";
+// import Welcome from "../components/welcome";
 
 /**
  * Loads the app's configuration if it exists.
@@ -189,9 +189,9 @@ export default function Index() {
               {errorBanner()}
             </BlockStack>
           </Layout.Section>
-          <Layout.Section>
+          {/* <Layout.Section>
             <Welcome />
-          </Layout.Section>
+          </Layout.Section> */}
           <Layout.Section>
             <Card>
               <BlockStack gap="5">

@@ -5,7 +5,6 @@ import prisma from "./db.server";
  */
 export const createPaymentSession = async (paymentSession) => {
   const { amount, paymentMethod, customer } = paymentSession;
-  console.log("Payment Session:", paymentSession);
   return await prisma.paymentSession.create({
     data: {
       ...paymentSession,

@@ -3,23 +3,23 @@
 client_id = "9a038bd61d15000c201d1dfce9575f21"
 name = "Montypay Payments Dev"
 handle = "montypay-payments-dev"
-application_url = "https://graphs-winners-focused-cedar.trycloudflare.com"
+application_url = "https://trauma-nascar-transcripts-younger.trycloudflare.com"
 embedded = true
 
 [build]
-automatically_update_urls_on_dev = true
-dev_store_url = "montypay-payment.myshopify.com"
+automatically_update_urls_on_dev = false
+dev_store_url = "montypay-payment-dev.myshopify.com"
 include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = ""
+scopes = "read_payment_sessions,write_payment_sessions"
 
 [auth]
 redirect_urls = [
-  "https://graphs-winners-focused-cedar.trycloudflare.com/auth/callback",
-  "https://graphs-winners-focused-cedar.trycloudflare.com/auth/shopify/callback",
-  "https://graphs-winners-focused-cedar.trycloudflare.com/api/auth/callback"
+  "https://trauma-nascar-transcripts-younger.trycloudflare.com/auth/callback",
+  "https://trauma-nascar-transcripts-younger.trycloudflare.com/auth/shopify/callback",
+  "https://trauma-nascar-transcripts-younger.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

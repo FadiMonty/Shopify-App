@@ -58,7 +58,7 @@ export default function Dashboard() {
     voidIcon(!!payment.void),
     payment.proposedAt,
     payment.status || "Requires Resolution",
-    paymentSessionAction(payment),
+    // paymentSessionAction(payment),
   ]);
   return (
     <Page title={"Payments App Dashboard"} backAction={{ url: "/app" }}>
@@ -76,7 +76,7 @@ export default function Dashboard() {
             "text",
             "text",
             "text",
-            "text",
+            // "text",
           ]}
           headings={[
             "Payment Session ID",
@@ -85,7 +85,7 @@ export default function Dashboard() {
             "Void",
             "Proposed At",
             "Status",
-            "Action",
+            // "Action",
           ]}
           rows={rows}
         />
