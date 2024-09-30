@@ -1,10 +1,10 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "b994045fe32b81c8c974ddce386eb52e"
-name = "MontyPay Payment"
+client_id = "49561972d45175963e896c5502b18e1c"
+name = "Montypay Payment"
 handle = "montypay-payment"
-application_url = "https://charger-contrary-hat-vendor.trycloudflare.com"
-embedded = false
+application_url = "https://physical-presentation-stevens-turtle.trycloudflare.com"
+embedded = true
 
 [build]
 automatically_update_urls_on_dev = true
@@ -17,9 +17,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://charger-contrary-hat-vendor.trycloudflare.com/auth/callback",
-  "https://charger-contrary-hat-vendor.trycloudflare.com/auth/shopify/callback",
-  "https://charger-contrary-hat-vendor.trycloudflare.com/api/auth/callback"
+  "https://physical-presentation-stevens-turtle.trycloudflare.com/auth/callback",
+  "https://physical-presentation-stevens-turtle.trycloudflare.com/auth/shopify/callback",
+  "https://physical-presentation-stevens-turtle.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

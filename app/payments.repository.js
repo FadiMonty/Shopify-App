@@ -1,4 +1,4 @@
-import prisma from "./db.server";
+import prisma from "./db.js";
 
 /**
  * Creates a PaymentSession entity with the provided data.
