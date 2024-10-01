@@ -3,8 +3,8 @@
 client_id = "49561972d45175963e896c5502b18e1c"
 name = "Montypay Payment"
 handle = "montypay-payment"
-application_url = "https://physical-presentation-stevens-turtle.trycloudflare.com"
-embedded = true
+application_url = "https://shopify-app-sng2.onrender.com"
+embedded = false
 
 [build]
 automatically_update_urls_on_dev = true
@@ -17,9 +17,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://physical-presentation-stevens-turtle.trycloudflare.com/auth/callback",
-  "https://physical-presentation-stevens-turtle.trycloudflare.com/auth/shopify/callback",
-  "https://physical-presentation-stevens-turtle.trycloudflare.com/api/auth/callback"
+  "https://shopify-app-sng2.onrender.com/auth/callback",
+  "https://shopify-app-sng2.onrender.com/auth/shopify/callback",
+  "https://shopify-app-sng2.onrender.com/api/auth/callback"
 ]
 
 [webhooks]
