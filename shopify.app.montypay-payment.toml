@@ -3,7 +3,7 @@
 client_id = "49561972d45175963e896c5502b18e1c"
 name = "Montypay Payment"
 handle = "montypay-payment"
-application_url = "https://shopify-app-sng2.onrender.com"
+application_url = "https://surgeons-catch-looks-rob.trycloudflare.com"
 embedded = false
 
 [build]
@@ -17,9 +17,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://shopify-app-sng2.onrender.com/auth/callback",
-  "https://shopify-app-sng2.onrender.com/auth/shopify/callback",
-  "https://shopify-app-sng2.onrender.com/api/auth/callback"
+  "https://surgeons-catch-looks-rob.trycloudflare.com/auth/callback",
+  "https://surgeons-catch-looks-rob.trycloudflare.com/auth/shopify/callback",
+  "https://surgeons-catch-looks-rob.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
