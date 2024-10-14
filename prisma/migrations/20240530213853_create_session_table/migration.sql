@@ -6,7 +6,8 @@ CREATE TABLE `Session` (
   `scope` VARCHAR(255) DEFAULT NULL,
   `expires` DATETIME DEFAULT NULL,
   `accessToken` VARCHAR(255) NOT NULL,
-  `userId` BIGINT DEFAULT NULL
+  `userId` BIGINT DEFAULT NULL,
+  PRIMARY KEY (`id`)
 );
 
 CREATE TABLE `Configuration` (
