@@ -6,15 +6,7 @@ CREATE TABLE `Session` (
   `scope` VARCHAR(255) DEFAULT NULL,
   `expires` DATETIME DEFAULT NULL,
   `accessToken` VARCHAR(255) NOT NULL,
-  `userId` BIGINT DEFAULT NULL,
-  `firstName` VARCHAR(255) DEFAULT NULL,
-  `lastName` VARCHAR(255) DEFAULT NULL,
-  `email` VARCHAR(255) DEFAULT NULL,
-  `accountOwner` TINYINT(1) NOT NULL DEFAULT '0',
-  `locale` VARCHAR(255) DEFAULT NULL,
-  `collaborator` TINYINT(1) DEFAULT NULL,
-  `emailVerified` TINYINT(1) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  `userId` BIGINT DEFAULT NULL
 );
 
 CREATE TABLE `Configuration` (
