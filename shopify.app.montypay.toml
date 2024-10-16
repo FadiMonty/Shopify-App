@@ -1,9 +1,9 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "49561972d45175963e896c5502b18e1c"
-name = "Montypay Payment"
-handle = "montypay-payment"
-application_url = "https://shopify-app-sng2.onrender.com"
+client_id = "89ec580619d25a97bffda5c0e5bcd8e1"
+name = "MontyPay"
+handle = "montypay-5"
+application_url = "https://shopify.dev/apps/default-app-home"
 embedded = false
 
 [build]
@@ -23,7 +23,7 @@ redirect_urls = [
 ]
 
 [webhooks]
-api_version = "2024-07"
+api_version = "2024-10"
 
 [pos]
 embedded = false

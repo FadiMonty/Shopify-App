@@ -8,7 +8,7 @@ embedded = false
 
 [build]
 automatically_update_urls_on_dev = true
-dev_store_url = "montypay-payment.myshopify.com"
+dev_store_url = "monty-pay-dev.myshopify.com/"
 include_config_on_deploy = true
 
 [access_scopes]
